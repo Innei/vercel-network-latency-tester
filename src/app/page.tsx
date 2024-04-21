@@ -30,7 +30,6 @@ const regions = [
   'sfo1',
   'sin1',
   'syd1',
-  'dev1',
 
   'default',
 ]
