@@ -1,6 +1,9 @@
 import { MIDDLEWARE_TIME_HEADER } from '@/constants'
 import { NextResponse, type NextRequest } from 'next/server'
 
+export const runtime = 'edge'
+export const preferredRegion = ['arn1']
+export const dynamic = 'force-dynamic'
 export const POST = async (req: NextRequest) => {
   // const middlewareTime = req.headers.get(MIDDLEWARE_TIME_HEADER)
   const now = Date.now()

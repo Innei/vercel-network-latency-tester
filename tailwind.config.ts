@@ -1,6 +1,20 @@
+import daisyui from 'daisyui'
+import { withTV } from 'tailwind-variants/transformer'
+
+import { addDynamicIconSelectors } from '@iconify/tailwind'
+
 // eslint-disable-next-line import/no-anonymous-default-export
-export default {
-  plugins: [require('daisyui')], // add this
+export default withTV({
+  plugins: [
+    require('daisyui'),
+
+    addDynamicIconSelectors(),
+
+    daisyui,
+
+    require('tailwind-scrollbar'),
+    require('@tailwindcss/container-queries'),
+  ], // add this
   content: [
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     './node_modules/shiro-rc/dist/**/*.{js,ts,jsx,tsx,mdx}', // add this
@@ -48,4 +62,4 @@ export default {
       },
     ],
   },
-}
+})
