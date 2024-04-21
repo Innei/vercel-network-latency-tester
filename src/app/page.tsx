@@ -150,7 +150,11 @@ const ResultGraph = ({ result }: { result: Time }) => {
           <div
             className="h-2 rounded-md bg-blue-500 absolute"
             style={{ width: `${t1Precent}%` }}
-          ></div>
+          >
+            <div className="absolute -top-1 -left-2 -translate-x-full text-xs">
+              {result.serverRequestStart - result.clientRequestStart}ms
+            </div>
+          </div>
         }
       >
         Browser to server response time:
@@ -169,7 +173,11 @@ const ResultGraph = ({ result }: { result: Time }) => {
               left: `${t1Precent}%`,
               top: '1rem',
             }}
-          ></div>
+          >
+            <div className="absolute -top-1 -left-2 -translate-x-full text-xs">
+              {result.serverResponseEnd - result.serverRequestStart}ms
+            </div>
+          </div>
         }
       >
         Server processing time:
@@ -188,7 +196,11 @@ const ResultGraph = ({ result }: { result: Time }) => {
               top: '2rem',
               left: `${t1Precent + t2Precent}%`,
             }}
-          ></div>
+          >
+            <div className="absolute -top-1 -left-2 -translate-x-full text-xs">
+              {result.clientResponseEnd - result.serverResponseEnd}ms
+            </div>
+          </div>
         }
       >
         The browser receives the response time:

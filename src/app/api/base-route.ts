@@ -21,6 +21,7 @@ export const POST = async (req: NextRequest) => {
   }).finally(() => {
     endpointResponseTime = Date.now()
   })
+
   return NextResponse.json({
     // middlewareTime,
     nextResponseTime: now,
