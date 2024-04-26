@@ -47,13 +47,13 @@ devDependencies:
     specifier: ^4.10.2
     version: 4.10.2(postcss@8.4.38)
   eslint:
-    specifier: ^8.0.1
+    specifier: ^8.57.0
     version: 8.57.0
   eslint-config-next:
     specifier: 14.2.3
     version: 14.2.3(eslint@8.57.0)(typescript@5.4.5)
   postcss:
-    specifier: ^8.0.9
+    specifier: ^8.4.38
     version: 8.4.38
   tailwind-scrollbar:
     specifier: 3.1.0
@@ -65,7 +65,7 @@ devDependencies:
     specifier: ^3.4.3
     version: 3.4.3
   typescript:
-    specifier: ^5.0.4
+    specifier: ^5.4.5
     version: 5.4.5
 
 packages:
