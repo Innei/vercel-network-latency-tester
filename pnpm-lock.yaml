@@ -25,7 +25,7 @@ dependencies:
     version: 18.3.1(react@18.3.1)
   shiro-rc:
     specifier: ^0.0.10
-    version: 0.0.10(@types/react-dom@18.3.0)(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.3)
+    version: 0.0.10(@types/react-dom@18.3.0)(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.4)
 
 devDependencies:
   '@iconify/tailwind':
@@ -33,7 +33,7 @@ devDependencies:
     version: 0.1.4
   '@tailwindcss/container-queries':
     specifier: 0.1.1
-    version: 0.1.1(tailwindcss@3.4.3)
+    version: 0.1.1(tailwindcss@3.4.4)
   '@types/node':
     specifier: ^20.13.0
     version: 20.13.0
@@ -57,13 +57,13 @@ devDependencies:
     version: 8.4.38
   tailwind-scrollbar:
     specifier: 3.1.0
-    version: 3.1.0(tailwindcss@3.4.3)
+    version: 3.1.0(tailwindcss@3.4.4)
   tailwind-variants:
     specifier: 0.2.1
-    version: 0.2.1(tailwindcss@3.4.3)
+    version: 0.2.1(tailwindcss@3.4.4)
   tailwindcss:
-    specifier: ^3.4.3
-    version: 3.4.3
+    specifier: ^3.4.4
+    version: 3.4.4
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -840,12 +840,12 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.3):
+  /@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.4):
     resolution: {integrity: sha512-p18dswChx6WnTSaJCSGx6lTmrGzNNvm2FtXmiO6AuA1V4U5REyoqwmT6kgAsIMdjo07QdAfYXHJ4hnMtfHzWgA==}
     peerDependencies:
       tailwindcss: '>=3.2.0'
     dependencies:
-      tailwindcss: 3.4.3
+      tailwindcss: 3.4.4
     dev: true
 
   /@types/json5@0.0.29:
@@ -3065,7 +3065,7 @@ packages:
       '@shikijs/core': 1.2.0
     dev: false
 
-  /shiro-rc@0.0.10(@types/react-dom@18.3.0)(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.3):
+  /shiro-rc@0.0.10(@types/react-dom@18.3.0)(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.4):
     resolution: {integrity: sha512-ljoIrw2Ez22HuBVQSQMrbv6h/KZbF8WDSEwzkNf8+X/aSOHsNxh6srUdJkhBZqeH4lhdFeBG+XgtZpvJDNleyA==}
     dependencies:
       '@floating-ui/react-dom': 2.0.8(react-dom@18.3.1)(react@18.3.1)
@@ -3079,7 +3079,7 @@ packages:
       jotai: 2.7.1(@types/react@18.3.3)(react@18.3.1)
       shiki: 1.2.0
       tailwind-merge: 2.3.0
-      tailwind-variants: 0.2.0(tailwindcss@3.4.3)
+      tailwind-variants: 0.2.0(tailwindcss@3.4.4)
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
       - '@types/react'
@@ -3247,37 +3247,37 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.6
 
-  /tailwind-scrollbar@3.1.0(tailwindcss@3.4.3):
+  /tailwind-scrollbar@3.1.0(tailwindcss@3.4.4):
     resolution: {integrity: sha512-pmrtDIZeHyu2idTejfV59SbaJyvp1VRjYxAjZBH0jnyrPRo6HL1kD5Glz8VPagasqr6oAx6M05+Tuw429Z8jxg==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
       tailwindcss: 3.x
     dependencies:
-      tailwindcss: 3.4.3
+      tailwindcss: 3.4.4
     dev: true
 
-  /tailwind-variants@0.2.0(tailwindcss@3.4.3):
+  /tailwind-variants@0.2.0(tailwindcss@3.4.4):
     resolution: {integrity: sha512-EuW5Sic7c0tzp+p5rJwAgb7398Jb0hi4zkyCstOoZPW0DWwr+EWkNtnZYEo5CjgE1tazHUzyt4oIhss64UXRVA==}
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
       tailwind-merge: 2.3.0
-      tailwindcss: 3.4.3
+      tailwindcss: 3.4.4
     dev: false
 
-  /tailwind-variants@0.2.1(tailwindcss@3.4.3):
+  /tailwind-variants@0.2.1(tailwindcss@3.4.4):
     resolution: {integrity: sha512-2xmhAf4UIc3PijOUcJPA1LP4AbxhpcHuHM2C26xM0k81r0maAO6uoUSHl3APmvHZcY5cZCY/bYuJdfFa4eGoaw==}
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
       tailwind-merge: 2.3.0
-      tailwindcss: 3.4.3
+      tailwindcss: 3.4.4
     dev: true
 
-  /tailwindcss@3.4.3:
-    resolution: {integrity: sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==}
+  /tailwindcss@3.4.4:
+    resolution: {integrity: sha512-ZoyXOdJjISB7/BcLTR6SEsLgKtDStYyYZVLsUtWChO4Ps20CBad7lfJKVDiejocV4ME1hLmyY0WJE3hSDcmQ2A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
