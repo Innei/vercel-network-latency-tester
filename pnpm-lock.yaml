@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@iconify-json/mingcute':
-    specifier: 1.1.19
-    version: 1.1.19
+    specifier: 1.1.20
+    version: 1.1.20
   framer-motion:
     specifier: ^11.3.30
     version: 11.3.30(react-dom@18.3.1)(react@18.3.1)
@@ -168,8 +168,8 @@ packages:
     deprecated: Use @eslint/object-schema instead
     dev: true
 
-  /@iconify-json/mingcute@1.1.19:
-    resolution: {integrity: sha512-O7h8mEQPUBfpsMagPI7ab/w5JzpijMMYmlabD43hyXyjh2LBfz+FlC+AcgSjQERx9+zb1dECb0FA34L5+VKs/Q==}
+  /@iconify-json/mingcute@1.1.20:
+    resolution: {integrity: sha512-cLrKrnb9gsi+G6bRtqoFB0KcZnuD/f+p1mwmCTOJdfT8XUFOeZ/ObyBDcAsD2alwL1JmwvqRF08RDW0pfWZAnA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
