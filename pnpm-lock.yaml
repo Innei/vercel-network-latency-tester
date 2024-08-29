@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.1.20
     version: 1.1.20
   framer-motion:
-    specifier: ^11.3.30
-    version: 11.3.30(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^11.3.31
+    version: 11.3.31(react-dom@18.3.1)(react@18.3.1)
   next:
     specifier: 14.2.7
     version: 14.2.7(react-dom@18.3.1)(react@18.3.1)
@@ -1924,8 +1924,8 @@ packages:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
 
-  /framer-motion@11.3.30(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-9VmqGe9OIjfMoCcs+ZsKXlv6JaG5QagKX2F1uSbkG3Z33wgjnz60Kw+CngC1M49rDYau+Y9aL+8jGagAwrbVyw==}
+  /framer-motion@11.3.31(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-Xmxs08WBXnc2tNzNZbFSpquI33lvleJg4Y+hmZ+vFkn+laN9ZnR3gbZnNGKDtuz7c/x3u8dLg05OU3EhLobCsg==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
@@ -3114,7 +3114,7 @@ packages:
       clsx: 2.1.1
       daisyui: 4.7.2(postcss@8.4.41)
       dayjs: 1.11.10
-      framer-motion: 11.3.30(react-dom@18.3.1)(react@18.3.1)
+      framer-motion: 11.3.31(react-dom@18.3.1)(react@18.3.1)
       jotai: 2.7.1(@types/react@18.3.4)(react@18.3.1)
       shiki: 1.2.0
       tailwind-merge: 2.4.0
