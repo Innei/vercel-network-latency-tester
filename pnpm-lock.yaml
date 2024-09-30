@@ -9,7 +9,7 @@ dependencies:
     specifier: 1.1.20
     version: 1.1.20
   framer-motion:
-    specifier: ^11.3.31
+    specifier: ^11.9.0
     version: 11.9.0(react-dom@18.3.1)(react@18.3.1)
   next:
     specifier: 14.2.13
@@ -35,7 +35,7 @@ devDependencies:
     specifier: 0.1.1
     version: 0.1.1(tailwindcss@3.4.13)
   '@types/node':
-    specifier: ^20.14.15
+    specifier: ^20.16.10
     version: 20.16.10
   '@types/react':
     specifier: ^18.3.10
@@ -65,7 +65,7 @@ devDependencies:
     specifier: ^3.4.13
     version: 3.4.13
   typescript:
-    specifier: ^5.5.4
+    specifier: ^5.6.2
     version: 5.6.2
 
 packages:
