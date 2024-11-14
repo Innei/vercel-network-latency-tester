@@ -25,7 +25,7 @@ dependencies:
     version: 18.3.1(react@18.3.1)
   shiro-rc:
     specifier: ^0.0.10
-    version: 0.0.10(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14)
+    version: 0.0.10(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.15)
 
 devDependencies:
   '@iconify/tailwind':
@@ -33,7 +33,7 @@ devDependencies:
     version: 0.1.4
   '@tailwindcss/container-queries':
     specifier: 0.1.1
-    version: 0.1.1(tailwindcss@3.4.14)
+    version: 0.1.1(tailwindcss@3.4.15)
   '@types/node':
     specifier: ^20.16.15
     version: 20.16.15
@@ -57,13 +57,13 @@ devDependencies:
     version: 8.4.49
   tailwind-scrollbar:
     specifier: 3.1.0
-    version: 3.1.0(tailwindcss@3.4.14)
+    version: 3.1.0(tailwindcss@3.4.15)
   tailwind-variants:
     specifier: 0.2.1
-    version: 0.2.1(tailwindcss@3.4.14)
+    version: 0.2.1(tailwindcss@3.4.15)
   tailwindcss:
-    specifier: ^3.4.14
-    version: 3.4.14
+    specifier: ^3.4.15
+    version: 3.4.15
   typescript:
     specifier: ^5.6.3
     version: 5.6.3
@@ -852,12 +852,12 @@ packages:
       tslib: 2.7.0
     dev: false
 
-  /@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.14):
+  /@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.15):
     resolution: {integrity: sha512-p18dswChx6WnTSaJCSGx6lTmrGzNNvm2FtXmiO6AuA1V4U5REyoqwmT6kgAsIMdjo07QdAfYXHJ4hnMtfHzWgA==}
     peerDependencies:
       tailwindcss: '>=3.2.0'
     dependencies:
-      tailwindcss: 3.4.14
+      tailwindcss: 3.4.15
     dev: true
 
   /@types/json5@0.0.29:
@@ -2811,6 +2811,7 @@ packages:
 
   /picocolors@1.1.0:
     resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
+    dev: true
 
   /picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -3153,7 +3154,7 @@ packages:
       '@shikijs/core': 1.2.0
     dev: false
 
-  /shiro-rc@0.0.10(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14):
+  /shiro-rc@0.0.10(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.15):
     resolution: {integrity: sha512-ljoIrw2Ez22HuBVQSQMrbv6h/KZbF8WDSEwzkNf8+X/aSOHsNxh6srUdJkhBZqeH4lhdFeBG+XgtZpvJDNleyA==}
     dependencies:
       '@floating-ui/react-dom': 2.0.8(react-dom@18.3.1)(react@18.3.1)
@@ -3167,7 +3168,7 @@ packages:
       jotai: 2.7.1(@types/react@18.3.12)(react@18.3.1)
       shiki: 1.2.0
       tailwind-merge: 2.5.2
-      tailwind-variants: 0.2.0(tailwindcss@3.4.14)
+      tailwind-variants: 0.2.0(tailwindcss@3.4.15)
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
       - '@types/react'
@@ -3349,37 +3350,37 @@ packages:
   /tailwind-merge@2.5.2:
     resolution: {integrity: sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==}
 
-  /tailwind-scrollbar@3.1.0(tailwindcss@3.4.14):
+  /tailwind-scrollbar@3.1.0(tailwindcss@3.4.15):
     resolution: {integrity: sha512-pmrtDIZeHyu2idTejfV59SbaJyvp1VRjYxAjZBH0jnyrPRo6HL1kD5Glz8VPagasqr6oAx6M05+Tuw429Z8jxg==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
       tailwindcss: 3.x
     dependencies:
-      tailwindcss: 3.4.14
+      tailwindcss: 3.4.15
     dev: true
 
-  /tailwind-variants@0.2.0(tailwindcss@3.4.14):
+  /tailwind-variants@0.2.0(tailwindcss@3.4.15):
     resolution: {integrity: sha512-EuW5Sic7c0tzp+p5rJwAgb7398Jb0hi4zkyCstOoZPW0DWwr+EWkNtnZYEo5CjgE1tazHUzyt4oIhss64UXRVA==}
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
       tailwind-merge: 2.5.2
-      tailwindcss: 3.4.14
+      tailwindcss: 3.4.15
     dev: false
 
-  /tailwind-variants@0.2.1(tailwindcss@3.4.14):
+  /tailwind-variants@0.2.1(tailwindcss@3.4.15):
     resolution: {integrity: sha512-2xmhAf4UIc3PijOUcJPA1LP4AbxhpcHuHM2C26xM0k81r0maAO6uoUSHl3APmvHZcY5cZCY/bYuJdfFa4eGoaw==}
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
       tailwind-merge: 2.5.2
-      tailwindcss: 3.4.14
+      tailwindcss: 3.4.15
     dev: true
 
-  /tailwindcss@3.4.14:
-    resolution: {integrity: sha512-IcSvOcTRcUtQQ7ILQL5quRDg7Xs93PdJEk1ZLbhhvJc7uj/OAhYOnruEiwnGgBvUtaUAJ8/mhSw1o8L2jCiENA==}
+  /tailwindcss@3.4.15:
+    resolution: {integrity: sha512-r4MeXnfBmSOuKUWmXe6h2CcyfzJCEk4F0pptO5jlnYSIViUkVmsawj80N5h2lO3gwcmSb4n3PuN+e+GC1Guylw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -3396,7 +3397,7 @@ packages:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       object-hash: 3.0.0
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       postcss: 8.4.49
       postcss-import: 15.1.0(postcss@8.4.49)
       postcss-js: 4.0.1(postcss@8.4.49)
