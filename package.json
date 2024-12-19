@@ -11,7 +11,7 @@
   "dependencies": {
     "@iconify-json/mingcute": "1.1.20",
     "framer-motion": "^11.9.0",
-    "next": "14.2.20",
+    "next": "14.2.21",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -25,7 +25,7 @@
     "@types/react-dom": "^18.3.5",
     "daisyui": "^4.12.22",
     "eslint": "^8.57.1",
-    "eslint-config-next": "14.2.20",
+    "eslint-config-next": "14.2.21",
     "postcss": "^8.4.49",
     "tailwind-scrollbar": "3.1.0",
     "tailwind-variants": "0.2.1",
