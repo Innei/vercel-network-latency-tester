@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@iconify-json/mingcute':
-    specifier: 1.1.20
-    version: 1.1.20
+    specifier: 1.2.3
+    version: 1.2.3
   framer-motion:
     specifier: ^11.15.0
     version: 11.15.0(react-dom@18.3.1)(react@18.3.1)
@@ -15,8 +15,8 @@ dependencies:
     specifier: 14.2.22
     version: 14.2.22(react-dom@18.3.1)(react@18.3.1)
   next-themes:
-    specifier: ^0.3.0
-    version: 0.3.0(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^0.4.4
+    version: 0.4.4(react-dom@18.3.1)(react@18.3.1)
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -59,8 +59,8 @@ devDependencies:
     specifier: 3.1.0
     version: 3.1.0(tailwindcss@3.4.17)
   tailwind-variants:
-    specifier: 0.2.1
-    version: 0.2.1(tailwindcss@3.4.17)
+    specifier: 0.3.0
+    version: 0.3.0(tailwindcss@3.4.17)
   tailwindcss:
     specifier: ^3.4.17
     version: 3.4.17
@@ -168,8 +168,8 @@ packages:
     deprecated: Use @eslint/object-schema instead
     dev: true
 
-  /@iconify-json/mingcute@1.1.20:
-    resolution: {integrity: sha512-cLrKrnb9gsi+G6bRtqoFB0KcZnuD/f+p1mwmCTOJdfT8XUFOeZ/ObyBDcAsD2alwL1JmwvqRF08RDW0pfWZAnA==}
+  /@iconify-json/mingcute@1.2.3:
+    resolution: {integrity: sha512-yiEQfLBF5iwyOdxuY0kEU06+8Mp6Mrp14KVXTb+5jjSVuD71C9EQrzM/mm1Efd8Nu2amJalTPisl3loC8pHBqQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
@@ -2612,11 +2612,11 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next-themes@0.3.0(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-/QHIrsYpd6Kfk7xakK4svpDI5mmXP0gfvCoJdGpZQ2TOrQZmsW0QxjaiLn8wbIKjtm4BTSqLoix4lxYYOnLJ/w==}
+  /next-themes@0.4.4(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-LDQ2qIOJF0VnuVrrMSMLrWGjRMkq+0mpgl6e0juCLqdJ+oo8Q84JRWT6Wh11VDQKkMMe+dVzDKLWs5n87T+PkQ==}
     peerDependencies:
-      react: ^16.8 || ^17 || ^18
-      react-dom: ^16.8 || ^17 || ^18
+      react: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
+      react-dom: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -3412,8 +3412,8 @@ packages:
       tailwindcss: 3.4.17
     dev: false
 
-  /tailwind-variants@0.2.1(tailwindcss@3.4.17):
-    resolution: {integrity: sha512-2xmhAf4UIc3PijOUcJPA1LP4AbxhpcHuHM2C26xM0k81r0maAO6uoUSHl3APmvHZcY5cZCY/bYuJdfFa4eGoaw==}
+  /tailwind-variants@0.3.0(tailwindcss@3.4.17):
+    resolution: {integrity: sha512-ho2k5kn+LB1fT5XdNS3Clb96zieWxbStE9wNLK7D0AV64kdZMaYzAKo0fWl6fXLPY99ffF9oBJnIj5escEl/8A==}
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
