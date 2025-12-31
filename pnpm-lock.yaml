@@ -29,8 +29,8 @@ dependencies:
 
 devDependencies:
   '@iconify/tailwind':
-    specifier: 0.1.4
-    version: 0.1.4
+    specifier: 1.2.0
+    version: 1.2.0
   '@tailwindcss/container-queries':
     specifier: 0.1.1
     version: 0.1.1(tailwindcss@3.4.17)
@@ -174,8 +174,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
-  /@iconify/tailwind@0.1.4:
-    resolution: {integrity: sha512-U7RzcU2fkwOfMDsGQ3mtpLIaApSnqb+vgcJJknPPbg8/NF5s7tI1o5otEMfcpnLGk4PbYB8bxmKTz7IJVUlU2Q==}
+  /@iconify/tailwind@1.2.0:
+    resolution: {integrity: sha512-KgpIHWOTcRYw1XcoUqyNSrmYyfLLqZYu3AmP8zdfLk0F5TqRO8YerhlvlQmGfn7rJXgPeZN569xPAJnJ53zZxA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
